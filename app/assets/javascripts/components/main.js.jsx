@@ -4,11 +4,17 @@
   root.Main = React.createClass({
     getInitialState: function() {
       ApiUtil.fetchImageIds();
-      return {imageIds: ImageIdsStore.all()};
+      return {
+        imageIds: ImageIdsStore.all(),
+        currentImageId: ImageIdsStore.first(),
+      };
     },
 
     _updateState: function () {
-      this.setState({imageIds: ImageIdsStore.all()});
+      this.setState({
+        imageIds: ImageIdsStore.all(),
+        currentImageId: ImageIdsStore.first(),
+      });
     },
 
     componentDidMount: function () {
@@ -20,13 +26,16 @@
     },
 
     render: function(){
-      return(
-        <div>
-          {this.state.imageIds.map(function(imageId) {
-            return <p key={imageId}>{imageId}</p>;
-          })}
-        </div>
-      );
+      if(typeof this.state.currentImageId === 'undefined') {
+        return <div/>;
+      }else {
+        return(
+          <div>
+            <NavBar />
+            <ArtPiece key={0} imageId={this.state.currentImageId} />
+          </div>
+        );
+      }
     }
   });
 })(this);

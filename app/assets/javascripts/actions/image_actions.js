@@ -5,4 +5,11 @@ var ApiActions = {
       imageIds: imageIds
     });
   },
+
+  receiveImage: function (image) {
+    AppDispatcher.dispatch({
+      actionType: ImageConstants.IMAGE_RECEIVED,
+      image: image
+    });
+  },
 };
