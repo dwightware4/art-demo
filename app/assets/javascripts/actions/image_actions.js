@@ -12,4 +12,11 @@ var ApiActions = {
       image: image
     });
   },
+
+  changeArt: function (imageId) {
+    AppDispatcher.dispatch({
+      actionType: ImageConstants.CURRENT_IMAGE_CHANGE,
+      newImage: imageId
+    });
+  },
 };

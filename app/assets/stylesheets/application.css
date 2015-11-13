@@ -11,12 +11,7 @@ body {
 }
 
 .bg-black {
-  background-color: black;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
+  background-color: gray;
 }
 
 .art-text {
@@ -24,6 +19,27 @@ img {
   font-family: Amatic SC;
 }
 
-.size-large {
+.size-xl {
+  font-size: 40px;
+}
+
+.size-l {
   font-size: 30px;
+}
+
+.size-s {
+  font-size: 24px;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
+img {
+  border: 15px solid #000;
+  max-height: 66vh;
+}
+
+.max-height {
+  max-height: 24vh;
 }

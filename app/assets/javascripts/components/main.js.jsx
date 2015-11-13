@@ -6,33 +6,38 @@
       ApiUtil.fetchImageIds();
       return {
         imageIds: ImageIdsStore.all(),
-        currentImageId: ImageIdsStore.first(),
+        currentImage: CurrentImageStore.currentImage(),
       };
     },
 
-    _updateState: function () {
+    _updateImageIds: function () {
       this.setState({
         imageIds: ImageIdsStore.all(),
-        currentImageId: ImageIdsStore.first(),
       });
     },
 
+    _updateCurrentImage: function() {
+      this.setState({currentImage: CurrentImageStore.currentImage()});
+    },
+
     componentDidMount: function () {
-      ImageIdsStore.addChangeListener(this._updateState);
+      ImageIdsStore.addChangeListener(this._updateImageIds);
+      CurrentImageStore.addChangeListener(this._updateCurrentImage);
     },
 
     removeChangeListener: function () {
-      ImageIdsStore.removeChangeListener(this._updateState);
+      ImageIdsStore.removeChangeListener(this._updateImageIds);
+      CurrentImageStore.removeChangeListener(this._updateCurrentImage);
     },
 
     render: function(){
-      if(typeof this.state.currentImageId === 'undefined') {
+      if(this.state.imageIds.length === 0) {
         return <div/>;
       }else {
         return(
           <div>
             <NavBar />
-            <ArtPiece key={0} imageId={this.state.currentImageId} />
+            <ArtPiece key={this.state.currentImage} imagePos={this.state.currentImage} imageId={this.state.imageIds[this.state.currentImage]} />
           </div>
         );
       }
