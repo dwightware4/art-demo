@@ -40398,3 +40398,81 @@ Started GET "/assets/utils/api_util.self-cb8e8b1029781df683b9a3ac4aea20626d488e7
 
 
 Started GET "/assets/application.self-16c207b3ca1b52afcfc7f4b662487caf1bbe084a6656bb15f693ab9de2d11be7.js?body=1" for ::1 at 2015-11-12 23:37:27 -0800
+
+
+Started GET "/" for ::1 at 2015-11-13 00:13:26 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 312ms (Views: 306.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.self-5b559948b20de4f22bb241ecc56135cd47899f3117bb0d57336a7209449c6c2a.css?body=1" for ::1 at 2015-11-13 00:13:26 -0800
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-11-13 00:13:26 -0800
+
+
+Started GET "/assets/application.self-9e427a4f50dfe1a1acc9eea696680b9b466385a580706fcd985e88ee3becc821.css?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/react_ujs.self-0833fe72a25fcb9cc0686328cc2aa88975f128bf379c265b61ad1a5e1113a400.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/components/main.self-38ec9f2976a1cc57150452e714e14db2c3c158c54ee20a830348b7b28eedede3.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/components/art_piece.self-567d7d3f0c5ded26ccd4094da218bfd7262195d018112f755266889b3f08c953.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/components/navbar.self-5064078c1082758d4872760eb188c4654ebc8279689f9c0a2533cf453f7a22ec.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/flux.self-d49657677b043fd9a5b56222b931c6dc76b57db2cff9d5967d80f300ee2f4545.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/actions/image_actions.self-d3524ee9b6b564e72486b7766dc18dd171024865ad749276e4561abb78949e66.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/constants/constants.self-85cf9c570a2ffd489896e9c50a79680b676259c571c1e716431e4e6c0d6ccfab.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/dispatcher/dispatcher.self-34b31b3e204310e978a60dd3f2ea61c4fc294add063fbc66c7137ccde8c7df76.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/stores/current_image.self-096f91d2f13f37f2cfe2ba302052d4f6b675485aa66b0e47f087ee6e323de5f3.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/stores/image_ids.self-1a0a7b1257b8033dbff54c47118c095ad86259dc3bafda68881e1ca0b907af44.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/stores/images.self-8162fa114a73a20586a8f7030fe41bf16dff27156d7c23a71606088271f4c8ba.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/utils/api_util.self-cb8e8b1029781df683b9a3ac4aea20626d488e71062bd0db609c97b0049d5310.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
+
+
+Started GET "/assets/application.self-16c207b3ca1b52afcfc7f4b662487caf1bbe084a6656bb15f693ab9de2d11be7.js?body=1" for ::1 at 2015-11-13 00:13:27 -0800
