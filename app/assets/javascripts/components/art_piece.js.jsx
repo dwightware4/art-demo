@@ -27,7 +27,7 @@
       ImagesStore.addChangeListener(this._updateState);
     },
 
-    removeChangeListener: function () {
+    componentWillUnmount: function () {
       ImagesStore.removeChangeListener(this._updateState);
     },
 

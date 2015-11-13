@@ -8,6 +8,10 @@ var _imageIds = [];
      return _imageIds.slice(0);
    },
 
+   byPos: function(pos) {
+     return _imageIds[pos];
+   },
+
    addChangeListener: function(callback){
      this.on(IMAGE_IDS_CHANGE, callback);
    },

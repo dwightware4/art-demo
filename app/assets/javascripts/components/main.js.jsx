@@ -25,7 +25,7 @@
       CurrentImageStore.addChangeListener(this._updateCurrentImage);
     },
 
-    removeChangeListener: function () {
+    componentWillUnmount: function () {
       ImageIdsStore.removeChangeListener(this._updateImageIds);
       CurrentImageStore.removeChangeListener(this._updateCurrentImage);
     },
