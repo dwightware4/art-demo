@@ -1,12 +1,16 @@
 # Art Demo App
 
+[Link to Live App][heroku]
+
+[heroku]: http://evening-coast-9469.herokuapp.com/
+
 This is a demo app. It consumes two JSON API's to render images and associated
 information.
 
 ## Implementation Details
  * Built on Rails in order to use Rails Server for development
  * Uses the React.js library for the front-end (aheres to the FLUX pattern)
- * Uses Twitter Bootstrap for faster styling
+ * Uses Twitter Bootstrap for faster styling supported with custom CSS
  * Used simple REGEX to replace thumbnailUrl image size to convert thumbnails to full size images.
 
 ## Design Choices
