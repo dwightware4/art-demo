@@ -11,7 +11,7 @@ information.
  * Built on Rails in order to use Rails Server for development
  * Uses the React.js library for the front-end (aheres to the FLUX pattern)
  * Uses Twitter Bootstrap for faster styling supported with custom CSS
- * Used simple REGEX to replace thumbnailUrl image size to convert thumbnails to full size images.
+ * Uses simple REGEX to replace thumbnailUrl image size to convert thumbnails to full size images.
 
 ## Design Choices
  * App makes single AJAX request to API 1 at startup and stores response to avoid additional API calls.
