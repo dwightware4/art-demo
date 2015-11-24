@@ -1,8 +1,8 @@
 # Art Demo App
 
-[Link to Live App][heroku]
+<!-- [Link to Live App][heroku]
 
-[heroku]: http://evening-coast-9469.herokuapp.com/
+[heroku]: http://evening-coast-9469.herokuapp.com/ -->
 
 This is a demo app. It consumes two JSON API's to render images and associated
 information.
